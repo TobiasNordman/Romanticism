@@ -1,1 +1,7 @@
 /*css fil */
+.background{
+  height: 100vh;
+  width: 100vh;
+  position: absolute;
+  background-color: white;
+}
