@@ -4,11 +4,19 @@
   padding: 0;
 }
 #header{
-  
+  height: 7.5vh;
+  width: 100vw;
+  position: sticky;
+  background-color: #ffeeff;
 }
 .background{
   height: 100vh;
   width: 100vw;
   position: absolute;
   background-color:green;
+}
+#footer{
+  height: 5vh;
+  width:100vw;
+  background-color: #da0030;
 }
