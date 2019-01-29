@@ -4,7 +4,7 @@
   padding: 0;
   overflow: hidden;
 }
-#header{
+.header{
   height: 7.5vh;
   width: 100vw;
   position: sticky;
@@ -29,4 +29,14 @@
   height: 5vh;
   width:100vw;
   background-color: #da0030;
+}
+.bodyone{
+  align-self: center;
+  background-color: red;
+  border-radius: 2vh;
+  height: 80vh;
+  width: 90vw;
+}
+.pone{
+  margin: 2vw 2vh 2vw 2vh;
 }
