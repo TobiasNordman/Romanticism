@@ -4,7 +4,7 @@
   padding: 0;
   overflow: hidden;
 }
-#header{
+.header{
   height: 7.5vh;
   width: 100vw;
   position: sticky;
