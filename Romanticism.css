@@ -9,6 +9,10 @@
   position: sticky;
   background-color: #ffeeff;
 }
+#startwin{
+  height: 92.5vh;
+  width: 100vh;
+}
 .background{
   height: 100vh;
   width: 100vw;
