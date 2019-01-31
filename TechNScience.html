@@ -5,7 +5,11 @@
     <title> Technology and Science </title>
     <link rel="stylesheet" href="Romanticism.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="Romanticism.js"></script>
+        <script>
+            $.get('text.txt', function(data) {
+                document.getElementById("pone").innerHTML = data;
+            });
+        </script>
   </head>
   <body>
     <div class="headerone">
