@@ -4,7 +4,13 @@
     <meta charset="utf-8">
     <title> Technology and Science </title>
     <link rel="stylesheet" href="Romanticism.css">
-    <script src="Romanticism.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script>
+      $.get('text.txt', function(data){
+        document.getElementById("pone").innerHtml = data;
+      });
+    </script>
   </head>
   <body>
     <div class="headerone">
@@ -13,8 +19,7 @@
       </h1>
     </div>
     <div class="bodyone">
-      <h2 id="pone">
-      </h2>
+      <p id="pone"></p>
     </div>
     <div class="footer">
       <p> här står all läknings info till oss </p>
