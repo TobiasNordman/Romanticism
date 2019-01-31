@@ -4,12 +4,19 @@
     <meta charset="utf-8">
     <title> Romanticism Index </title>
     <link rel="stylesheet" href="Romanticism.css">
-    <script src="Romanticism.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $.get('music.txt', function(data) {
+        document.getElementById("pett").innerHTML = data;
+    });
+</script>
   </head>
   <body>
     <div class="header">
     </div>
     <div class="background">
+      <h1>  Top 5 list. Most famous compositors of the Romantic era. </h1>  
+      <p id="pett"> </p>
     </div>
     <div class="footer">
     </div>
