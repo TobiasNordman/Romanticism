@@ -20,7 +20,11 @@
   width: 100vh;
   background-color:yellow;
 }
-
+#bodyarea{
+  height: 20vw;
+  width: 100vh;
+  background-color: blue;
+}
 .bakgrund{
   height: 100vh;
   width: 100vw;
