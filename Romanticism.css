@@ -29,6 +29,7 @@
   height: 100vh;
   width: 100vw;
   background-color:blue;
+  background-image: image(bakgrundsbild.jpeg);
 }
 .footer{
   height: 5vh;
