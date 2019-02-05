@@ -20,16 +20,11 @@
   width: 100vh;
   background-color:yellow;
 }
-.background{
-  height: 100vh;
-  width: 100vw;
-  background-color:green;
-}
+
 .bakgrund{
   height: 100vh;
   width: 100vw;
-  background-color:blue;
-  background-image: image(bakgrundsbild.jpeg);
+  background-image: url(bakgrundsbild.jpg);
 }
 .footer{
   height: 5vh;
