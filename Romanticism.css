@@ -53,7 +53,25 @@ p{
   width: 100vh;
   background-color:yellow;
 }
+<<<<<<< HEAD
 
+=======
+#bodyarea{
+  height: 20vw;
+  width: 100vh;
+  background-color: blue;
+}
+.bakgrund{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(bakgrundsbild.jpg);
+}
+.footer{
+  height: 5vh;
+  width:100vw;
+  background-color: #da0030;
+}
+>>>>>>> c662efa3596aefe8f542b7a5fc23736509444027
 .bodyone{
   align-self: center;
   background-color: gray;
@@ -71,8 +89,40 @@ p{
   height: 7.5vh;
   width: 60vw;
 }
+<<<<<<< HEAD
 .footer{
   height: 5vh;
   width:100vw;
   background-color: #da0030;
+=======
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: White;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #b11111 ;
+}
+#h2one{
+  font-size: 4vh;
+}
+p{
+  font-style: normal;
+  font-family: "Georgia";
+
+>>>>>>> c662efa3596aefe8f542b7a5fc23736509444027
 }
