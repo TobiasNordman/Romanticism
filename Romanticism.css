@@ -43,6 +43,7 @@
   background-color: Gray;
   text-align: center;
   margin: 2vh 20vw 2vh 20vw;
+  padding: 1vh 1vw 1vh 1vw;
   border-radius: 2vh;
   height: 7.5vh;
   width: 60vw;
@@ -69,6 +70,9 @@ li a {
 li a:hover {
   background-color: #b11111 ;
 }
+#h1one{
+  font-size: 5.5vh;
+}
 #h2one{
-  font-size: 4.3vh;
+  font-size: 4vh;
 }
