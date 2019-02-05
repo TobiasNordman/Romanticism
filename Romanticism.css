@@ -65,13 +65,13 @@ p{
   height: 100vh;
   width: 100vw;
   background-image: url(bakgrundsbild.jpg);
+  position: absolute;
 }
 .footer{
   height: 5vh;
   width:100vw;
   background-color: #da0030;
 }
->>>>>>> c662efa3596aefe8f542b7a5fc23736509444027
 .bodyone{
   align-self: center;
   background-color: gray;
