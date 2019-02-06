@@ -38,15 +38,16 @@ p{
 
 }
 .header{
-  height: 7.5vh;
+  height: 7.4vh;
   width: 100vw;
   position: sticky;
   background-color: #ffeeff;
+  overflow: hidden;
 }
 #startwin{
   height: 92.5vh;
   width: 100vw;
-  background-color: #121841;
+  background-image: url(bakgrundsbild.jpg);
 }
 #header{
   height: 5vw;
@@ -64,7 +65,7 @@ p{
 .bakgrund{
   height: 100vh;
   width: 100vw;
-  background-image: url(bakgrundsbild.jpg);
+  background-image: url(Naturbild.jpg);
   background-size: 100vh, 100vw;
   background-repeat: no-repeat;
   position:absolute;
@@ -82,6 +83,7 @@ p{
   padding: 1vh 1vw 1vh 1vw;
   height: 82vh;
   width: 90vw;
+  font-size: 1.4vw;
 }
 .bodytwo{
   align-self: center;
@@ -91,24 +93,24 @@ p{
   padding: 1vh 1vw 1vh 1vw;
   height: 20.5vh;
   width: 90vw;
-  font-size: 2vh;
+  font-size: 1.5vw;
 }
 
 .headerone{
   background-color: Gray;
   text-align: center;
   margin: 2vh 20vw 2vh 20vw;
+  padding: 1vh 1vw 1vh 1vw;
   border-radius: 2vh;
   height: 7.5vh;
   width: 60vw;
-  font-size: 2vw;
+  font-size: 1.1vw;
 }
-<<<<<<< HEAD
 .footer{
   height: 5vh;
   width:100vw;
   background-color: #da0030;
-=======
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -137,6 +139,4 @@ li a:hover {
 p{
   font-style: normal;
   font-family: "Georgia";
-
->>>>>>> c662efa3596aefe8f542b7a5fc23736509444027
 }
