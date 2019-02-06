@@ -2,7 +2,7 @@
 *{
   margin: 0;
   padding: 0;
-  overflow: hidden;
+
 }
 body{
   background-image: url(bakgrundsbild.jpg);
@@ -65,7 +65,9 @@ p{
   height: 100vh;
   width: 100vw;
   background-image: url(bakgrundsbild.jpg);
-  position: absolute;
+  background-size: 100vh, 100vw;
+  background-repeat: no-repeat;
+  position:absolute;
 }
 .footer{
   height: 5vh;
@@ -81,6 +83,17 @@ p{
   height: 82vh;
   width: 90vw;
 }
+.bodytwo{
+  align-self: center;
+  background-color: gray;
+  border-radius: 2vh;
+  margin: 2vh 5vw 2vh 5vw;
+  padding: 1vh 1vw 1vh 1vw;
+  height: 20.5vh;
+  width: 90vw;
+  font-size: 2vh;
+}
+
 .headerone{
   background-color: Gray;
   text-align: center;
@@ -88,6 +101,7 @@ p{
   border-radius: 2vh;
   height: 7.5vh;
   width: 60vw;
+  font-size: 2vw;
 }
 <<<<<<< HEAD
 .footer{
