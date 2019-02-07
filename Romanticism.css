@@ -9,41 +9,11 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: White;
-  text-align: center;
-  padding: 18px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #b11111 ;
-}
-#h2one{
-  font-size: ;
-}
-p{
-  font-style: normal;
-  font-family: "Georgia";
-
-}
 .header{
   height: 7.4vh;
   width: 100vw;
   position: sticky;
-  background-color: #121841;
+  background-color: #121841
   overflow: hidden;
 }
 #startwin{
@@ -79,7 +49,7 @@ p{
   padding: 1vh 1vw 1vh 1vw;
   height: 82vh;
   width: 90vw;
-  font-size: 1.4vw;
+  font-size: 1vw;
     background: rgba(200, 200, 200, 0.5);
 }
 .bodytwo{
@@ -94,7 +64,7 @@ p{
 }
 
 .headerone{
-  background-color: Gray;
+    background: rgba(200, 200, 200, 0.5);
   text-align: center;
   margin: 2vh 20vw 2vh 20vw;
   padding: 1vh 1vw 1vh 1vw;
@@ -131,7 +101,7 @@ li a:hover {
   background-color: #b11111 ;
 }
 #h2one{
-  font-size: 4vh;
+  font-size: 2.89vh;
 }
 p{
   font-style: normal;
