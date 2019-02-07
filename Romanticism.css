@@ -13,17 +13,16 @@ body{
   height: 7.4vh;
   width: 100vw;
   position: sticky;
-  background-color: #121841
+  background-color: #121841;
   overflow: hidden;
 }
 #startwin{
   height: 92.5vh;
   width: 100vw;
-  background-image: url(bakgrundsbild.jpg);
+  background-image: url(Nbild.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-<<<<<<< HEAD
-
-=======
 #bodyarea{
   height: 20vw;
   width: 100vh;
