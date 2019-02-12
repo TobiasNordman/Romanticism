@@ -11,26 +11,31 @@ body{
 }
 .header{
   height: 7.4vh;
-  width: 100vw;
+  width: 100%;
   position: sticky;
   background-color: #121841;
   overflow: hidden;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
 #startwin{
   height: 92.5vh;
-  width: 100vw;
+  width: 100%;
   background-image: url(Nbild.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #bodyarea{
   height: 20vw;
-  width: 100vh;
+  width: 100%;
   background-color: blue;
 }
 .bakgrund{
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url(Naturbild.jpg);
   background-size: 100vh, 100vw;
   background-repeat: no-repeat;
@@ -78,7 +83,7 @@ body{
 }
 .footer{
   height: 5vh;
-  width:100vw;
+  width:100%;
   background-color: #da0030;
 }
 ul {
@@ -110,4 +115,7 @@ p{
   font-style: normal;
   font-family: "Georgia";
 
+}
+.sticky + .startwin {
+  padding-top: 102px;
 }
