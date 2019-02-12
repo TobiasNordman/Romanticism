@@ -11,37 +11,34 @@ body{
 }
 .header{
   height: 7.4vh;
-  width: 100%;
+  width: 100vw;
+  position: sticky;
   background-color: #121841;
-
-}
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%
+  overflow: hidden;
 }
 #startwin{
   height: 92.5vh;
-  width: 100%;
+  width: 100vw;
   background-image: url(Nbild.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #bodyarea{
   height: 20vw;
-  width: 100%;
+  width: 100vh;
   background-color: blue;
 }
 .bakgrund{
   height: 100vh;
-  width: 10%;
+  width: 100vw;
   background-image: url(Naturbild.jpg);
   background-size: 100vh, 100vw;
   background-repeat: no-repeat;
+  position:absolute;
 }
 .footer{
   height: 5vh;
-  width:100%;
+  width:100vw;
   background-color: #da0030;
 }
 .bodyone{
@@ -50,7 +47,7 @@ body{
   margin: 2vh 5vw 2vh 5vw;
   padding: 1vh 1vw 1vh 1vw;
   height: 82vh;
-  width: 100%;
+  width: 90vw;
   font-size: 1vw;
     background: rgba(200, 200, 200, 0.5);
 }
@@ -64,7 +61,7 @@ body{
   margin: 2vh 5vw 2vh 5vw;
   padding: 1vh 1vw 1vh 1vw;
   height: 20.5vh;
-  width: 100%;
+  width: 90vw;
   font-size: 1.5vw;
   background: rgba(200, 200, 200, 0.5);
 }
@@ -81,7 +78,7 @@ body{
 }
 .footer{
   height: 5vh;
-  width:100%;
+  width:100vw;
   background-color: #da0030;
 }
 ul {
@@ -107,7 +104,7 @@ li a:hover {
   background-color: #b11111 ;
 }
 #h2one{
-  font-size: 2.8vh;
+  font-size: 2.89vh;
 }
 p{
   font-style: normal;
