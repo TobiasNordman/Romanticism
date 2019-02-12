@@ -11,26 +11,41 @@ body{
 }
 .header{
   height: 7.4vh;
-  width: 100vw;
+  width: 100%;
   position: sticky;
   background-color: #121841;
   overflow: hidden;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
 #startwin{
   height: 92.5vh;
-  width: 100vw;
+  width: 100%;
   background-image: url(Nbild.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 #bodyarea{
   height: 20vw;
-  width: 100vh;
+  width: 100%;
   background-color: blue;
+}
+  #bodyonee{
+  align-self: center;
+  border-radius: 2vh;
+  margin: 2vh 5vw 2vh 5vw;
+  padding: 1vh 1vw 1vh 1vw;
+  height: 82vh;
+  width: 90vw;
+  font-size: 1.4vw;
+    background: rgba(200, 200, 200, 0.5);
 }
 .bakgrund{
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   background-image: url(Naturbild.jpg);
   background-size: 100vh, 100vw;
   background-repeat: no-repeat;
@@ -44,10 +59,10 @@ body{
 .bodyone{
   align-self: center;
   border-radius: 2vh;
-  margin: 0vh 5vw 2vh 5vw;
-  padding: 1vh 1vw 1vh 1vw;
-  height: 82vh;
-  width: 80vw;
+  margin: 2vh 5vw 2vh 15vw;
+  padding: 1vh 1.5vw 1vh 1.5vw;
+  height: 95vh;
+  width: 70vw;
   font-size: 1vw;
     background: rgba(200, 200, 200, 0.5);
 }
@@ -65,7 +80,6 @@ body{
   font-size: 1.5vw;
   background: rgba(200, 200, 200, 0.5);
 }
-
 .headerone{
     background: rgba(200, 200, 200, 0.5);
   text-align: center;
@@ -78,7 +92,7 @@ body{
 }
 .footer{
   height: 5vh;
-  width:100vw;
+  width:100%;
   background-color: #da0030;
 }
 ul {
@@ -96,7 +110,7 @@ li a {
   display: block;
   color: White;
   text-align: center;
-  padding: 18px 16px;
+  padding: 2vh 2vw;
   text-decoration: none;
 }
 
@@ -107,10 +121,15 @@ li a:hover {
   font-size: 2.8vh;
 }
 #h1one{
+  text-align: center;
   font-size: 4vh;
+  padding-bottom: 1vh;
 }
 p{
   font-style: normal;
   font-family: "Georgia";
 
+}
+.sticky + .startwin {
+  padding-top: 102px;
 }
