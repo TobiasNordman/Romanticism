@@ -9,6 +9,9 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+a{
+  font-size: 4.5vh;
+}
 .header{
   height: 7.4vh;
   width: 100%;
@@ -57,9 +60,8 @@ body{
   background-color: #da0030;
 }
 .bodyone{
-  align-self: center;
   border-radius: 2vh;
-  margin: 2vh 5vw 2vh 15vw;
+  margin: 2vh 14vw 2vh 14vw;
   padding: 1vh 1.5vw 1vh 1.5vw;
   height: 95vh;
   width: 70vw;
@@ -95,9 +97,9 @@ body{
   width:100%;
   background-color: #da0030;
 }
-ul {
+ul{
   list-style-type: none;
-  margin: 0;
+  margin: 0vh 0vw 0vh 12.5vw;
   padding: 0;
   background-color: #333;
 }
