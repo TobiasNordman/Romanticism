@@ -54,6 +54,10 @@ body{
   font-size: 1vw;
     background: rgba(200, 200, 200, 0.5);
 }
+.h2one{
+  align-self: center;
+  margin: inherit;
+}
 .bodytwo{
   align-self: center;
   border-radius: 2vh;
