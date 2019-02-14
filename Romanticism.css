@@ -72,7 +72,7 @@ a{
 #geo1{
   background-image:url(https://www.royal.uk/sites/default/files/images/feature/king_george_iii.jpg);
   height:50%;
-  width: 100vw;
+  width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
 
