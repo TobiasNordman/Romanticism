@@ -15,6 +15,7 @@ a{
 .header{
   height: 7.4vh;
   width: 100%;
+  padding-left: 3vh;
   position: sticky;
   background-color: #121841;
   overflow: hidden;
@@ -56,8 +57,10 @@ a{
 }
 .footer{
   height: 5vh;
-  width:100vw;
-  background-color: #da0030;
+  width:98.9vw;
+  background-color: #121841;
+  color: white;
+  font-size: 2vh;
 }
 .bodyone{
   border-radius: 2vh;
@@ -91,11 +94,6 @@ a{
   height: 7.5vh;
   width: 60vw;
   font-size: 1.1vw;
-}
-.footer{
-  height: 5vh;
-  width:100%;
-  background-color: #da0030;
 }
 ul{
   list-style-type: none;
@@ -134,4 +132,8 @@ p{
 }
 .sticky + .startwin {
   padding-top: 102px;
+}
+.mindrea{
+  font-size: 2vh;
+  color: #eefaff;
 }
