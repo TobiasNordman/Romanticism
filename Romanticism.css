@@ -71,6 +71,14 @@ a{
   font-size: 1vw;
     background: rgba(200, 200, 200, 0.5);
 }
+
+#geo1{
+  background-image:url(https://www.royal.uk/sites/default/files/images/feature/king_george_iii.jpg);
+  height:50vh;
+  width: 78vw;
+  background-repeat: no-repeat;
+
+}
 .h2one{
   align-self: center;
   margin: inherit;
