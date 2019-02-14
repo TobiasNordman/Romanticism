@@ -77,7 +77,7 @@ a{
   height:50vh;
   width: 70vw;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 
 }
 .h2one{
