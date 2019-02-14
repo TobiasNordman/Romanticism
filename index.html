@@ -4,34 +4,35 @@
     <meta charset="utf-8">
     <title> Romanticism Index </title>
     <link rel="stylesheet" href="Romanticism.css">
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var header = document.getElementsByClassName("Header");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
   </head>
   <body>
 
-  <div class="header" id="myHeader">
-  <ul>
-  <li><a href="index.html"> Home </a></li>
-  <li><a href="#"> History </a></li>
-  <li><a href="TechNScience.html"> Technology and Science </a></li>
-  <li><a href="Music.html"> Music </a></li>
-  <li><a href="George.html">GeorgeIII</a></li>
-  <li><a href="politics.html">Role of Women</a></li>
-  </ul>
-    </div>
+  <div class="header">
+    <ul>
+      <li><a href="index.html"> Home </a></li>
+      <li><a href="#"> History </a></li>
+      <li><a href="TechNScience.html"> Technology and Science </a></li>
+      <li><a href="Music.html"> Music </a></li>
+      <li><a href="George.html">GeorgeIII</a></li>
+      <li><a href="politics.html">Role of Women</a></li>
+    </ul>
+  </div>
 
-  <script>
-  window.onscroll = function() {myFunction()};
 
-  var header = document.getElementById("myHeader");
-  var sticky = header.offsetTop;
-
-  function myFunction() {
-    if (window.pageYOffset > sticky) {
-      header.classList.add("sticky");
-    } else {
-      header.classList.remove("sticky");
-    }
-  }
-  </script>
 
 
     <div id="startwin">
