@@ -30,7 +30,8 @@ a{
   width: 100%;
   background-image: url(Nbild.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; 
+  background-position: fixed;
 }
 #bodyarea{
   height: 20vw;
