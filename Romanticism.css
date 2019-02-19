@@ -2,13 +2,8 @@
 *{
   margin: 0;
   padding: 0;
+}
 
-}
-body{
-  background-image: url(Natbild.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 a{
   font-size: 4.5vh;
 }
@@ -24,13 +19,6 @@ a{
   width: 100%;
 }
 
-#startwin{
-  height: 92.5vh;
-  width: 100%;
-  background-image: url(Nbild.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 #bodyarea{
   height: 20vw;
   width: 100%;
