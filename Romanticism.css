@@ -14,7 +14,7 @@ a{
 }
 .header{
   height: 7.4vh;
-  width: 97.5vw;
+  width: 100%;
   padding-left: 3vh;
   position: sticky;
   background-color: #121841;
@@ -30,7 +30,7 @@ a{
   width: 100%;
   background-image: url(Nbild.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;  
 }
 #bodyarea{
   height: 20vw;
@@ -71,28 +71,18 @@ a{
   font-size: 1vw;
     background: rgba(200, 200, 200, 0.5);
 }
-.bodyones{
-  border-radius: 2vh;
-  margin: 2vh 14vw 2vh 14vw;
-  padding: 1vh 1.5vw 1vh 1.5vw;
-  height: 100vh;
-  width: 70vw;
-  font-size: 1vw;
-  background: rgba(200, 200, 200, 0.5);
-  padding: 0vh 1.5vw 41vh 1.5vw;
-}
+
 #geo1{
   background-image:url(https://www.royal.uk/sites/default/files/images/feature/king_george_iii.jpg);
-  height:60vh;
+  height:80vh;
   width: 73vw;
-  margin: 0vh 0vw 0vh -1.5vw;
+  margin: -1vh 0vw 0vh -1.5vw;
   border-radius: 2vh 2vh 0vh 0vh;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 .h2one{
-  width: 1.5vw;
   align-self: center;
   margin: inherit;
 }
@@ -116,13 +106,14 @@ a{
   width: 60vw;
   font-size: 12vw;
 }
-.ul{
+ul{
   list-style-type: none;
   margin: 0vh 0vw 0vh 12.5vw;
   padding: 0;
   background-color: #333;
 }
-.li {
+
+li {
   float: left;
 }
 
