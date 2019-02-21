@@ -51,11 +51,12 @@ a{
   height: 100vh;
   width: 100%;
   background-image: url(Naturbild.jpg);
-  background-size: 100vh, 100vw;
+  background-size: cover;
   background-repeat: no-repeat;
   position:absolute;
 }
 .footer{
+  position: absolute;
   height: 5vh;
   width:98.9vw;
   background-color: #121841;
@@ -66,7 +67,7 @@ a{
   border-radius: 2vh;
   margin: 2vh 14vw 2vh 14vw;
   padding: 1vh 1.5vw 1vh 1.5vw;
-  height: 95vh;
+  height: 98%;
   width: 70vw;
   font-size: 1vw;
     background: rgba(200, 200, 200, 0.5);
@@ -74,7 +75,7 @@ a{
 
 #geo1{
   background-image:url(https://www.royal.uk/sites/default/files/images/feature/king_george_iii.jpg);
-  height:67vh;
+  height:57vh;
   width: 73vw;
   margin: -1vh 0vw 0vh -1.5vw;
   border-radius: 2vh 2vh 0vh 0vh;
