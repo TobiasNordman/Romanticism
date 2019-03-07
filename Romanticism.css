@@ -25,6 +25,13 @@ a{
   top: 0;
   width: 100%
 }
+#startwin{
+  height: 92.5vh;
+  width: 100%;
+  background-image: url(Nbild.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #bodyarea{
   height: 20vw;
   width: 100%;
@@ -68,7 +75,7 @@ a{
 
 #geo1{
   background-image:url(https://www.royal.uk/sites/default/files/images/feature/king_george_iii.jpg);
-  height:57vh;
+  height:46vh;
   width: 73vw;
   margin: -1vh 0vw 0vh -1.5vw;
   border-radius: 2vh 2vh 0vh 0vh;
