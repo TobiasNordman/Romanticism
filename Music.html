@@ -4,12 +4,19 @@
     <meta charset="utf-8">
     <title> Music </title>
     <link rel="stylesheet" href="Romanticism.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $.get('Music.txt', function(data) {
+        document.getElementById("Music").innerHTML = data;
+        });
+      </script>
   </head>
   <body>
+
     <div class="header">
       <ul class="ul">
         <li class="li"><a href="index.html"> Home </a></li>
-        <li class="li"><a href="#"> History </a></li>
+        <li class="li"><a href="history.html"> History </a></li>
         <li class="li"><a href="TechNScience.html"> Science </a></li>
         <li class="li"><a href="Music.html"> Music </a></li>
         <li class="li"><a href="George.html">George III</a></li>
@@ -19,11 +26,6 @@
     <div class="headerone">
       <h1>  Top 5: Most famous compositors of the Romantic era. </h1>
     </div>
-    <div class="bodytwo">
-      <p>
-        The Romantic age gave way to some of the most well-known and innovative compositors since time immemorial. This age followed the Classical era of music which houses the most prestigious of all compositors so the Romantic age compositors had a tough crowd to please, but they still managed to hold up to the standards. This article will describe the Top 5 compositors from the Romantic age and the innovative ideas that came from their music.
-        <br> <br> </p>
-      </div>
       <div class="bodytwo">
       <h2>  1.	Louis-Hector Berlioz </h2>
 
