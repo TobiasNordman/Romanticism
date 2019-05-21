@@ -41,6 +41,7 @@ a{
   align-self: center;
   border-radius: 2vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
   margin: 2vh 5vw 2vh 5vw;
   padding: 1vh 1vw 1vh 1vw;
   height: 78vh;
@@ -51,6 +52,12 @@ a{
   padding: 1vh 1.5vw 1vh 1.5vw;
   height: 98%;
   width: 70vw;
+=======
+  margin: 2vh 20vw 2vh 20vw;
+  padding: 1vh 1.5vw 1vh 1.5vw;
+  height: 98%;
+  width: 59vw;
+>>>>>>> d06fbb80e5f1e1f66942553e3a091d15fc374edc
   font-size: 1.5vw;
 >>>>>>> b5376fdf1f46fd9ca9a01b74bc4cb1990f13909d
     background: rgba(200, 200, 200, 0.5);
